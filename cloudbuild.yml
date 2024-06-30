@@ -16,3 +16,5 @@ steps:
         'push',
         'europe-west9-docker.pkg.dev/microservices-shop-nestjs/image-registry/auth-ms-prod',
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
